@@ -113,6 +113,9 @@ final class ConsoleScoper
         );
 
         foreach ($files as [$inputFilePath, $inputContents, $outputFilePath]) {
+
+            $outputFilePath =  str_replace('\vendor-src\src', '', $outputFilePath);
+            
             $this->scopeFile(
                 $scoper,
                 $inputFilePath,
