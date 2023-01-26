@@ -264,3 +264,4 @@ final class ConsoleScoper
         }
     }
 }
+
