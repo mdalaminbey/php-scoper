@@ -1,5 +1,5 @@
 {
-    "name": "humbug/php-scoper",
+    "name": "mdalaminbey/php-scoper",
     "description": "Prefixes all PHP namespaces in a file or directory.",
     "license": "MIT",
     "authors": [
