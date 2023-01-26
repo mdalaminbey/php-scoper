@@ -24,6 +24,7 @@ use function strrpos;
 
 function get_php_scoper_version(): string
 {
+    return '0.17.14';
     // Since PHP-Scoper relies on COMPOSER_ROOT_VERSION the version parsed by PackageVersions, we rely on Box
     // placeholders in order to get the right version for the PHAR.
     if (0 === strpos(__FILE__, 'phar:')) {
